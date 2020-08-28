@@ -39,7 +39,7 @@ def make_prediction(path_to_img):
 root = tk.Tk()
 
 def add_file():
-    filename = filedialog.askopenfilename(initialdir = "/home/bibi/Desktop/Programare/Proiecte Personale/Cats_vs_Dogs", title = "Select Image")
+    filename = filedialog.askopenfilename(initialdir = "/home", title = "Select Image")
     prediction = make_prediction(filename)
     
     label = tk.Label(root, text="I think that you've selected a "+prediction)

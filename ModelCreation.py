@@ -109,11 +109,11 @@ def plot_history(history):
 
 if __name__=="__main__":
     
-    #create_data(DATASET_PATH, TRAINING_DATA_FILENAME)
+    create_data(DATASET_PATH, TRAINING_DATA_FILENAME)
 
     training_data = np.load(TRAINING_DATA_FILENAME, allow_pickle=True)
     
-    #count_images(training_data)
+    count_images(training_data)
         
     X = [] #features list
     y = [] #label list
